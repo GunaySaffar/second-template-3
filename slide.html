@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slid
+	</title>
+	<style type="text/css">
+		#slider{
+			width: 475px;
+			height: 310px;
+			border: 5px solid black;
+			margin: 50px auto;
+			float: left;
+			text-align: center;
+			
+		
+
+		}
+		#polosa{
+			background-color: pink;
+			width: 950px;
+			position: relative;
+			display: inline-block;
+			margin:0;
+			transition: all 1s ease;
+		}
+		.slid{
+
+			width: 475px;
+			float: right;
+
+		}
+		#polosa::after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.slid p{
+			margin: 17px;
+			color: #8c9398;
+		    word-spacing: 1px;
+		    line-height: 25px;
+		    font-size: 14px;
+		    text-align: center;
+		}
+
+		.slid h2{
+			font-size: 15px;
+			letter-spacing: 1px;
+			width: 100%;
+			background: url(../images/h1-bg.png) no-repeat center bottom;
+			padding-bottom: 30px;
+			font-size: 15px;
+			letter-spacing: 1px;
+			margin: 0 auto;
+		}
+				.slider-left,.slider-right{
+			height:13px;
+			width:13px;
+			padding:0;
+			cursor:pointer;
+			border-radius: 50%;
+			border: 2px solid  #8c9398;
+			background-color: rgba(128, 128, 128,0.5);
+			display: inline-block;
+		}
+
+	</style>
+</head>
+<body>
+<div id="slider">
+	<div id="polosa">
+		<div class="slid" style="display: none;">
+			<h2>BOOTSTRAP PROFESSIONALS</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+			<p>Mauris ultrices odio vitae nulla ultrices iaculis. Nulla rhoncus odio eu lectus faucibus facilisis. Maecenas ornare augue vitae sollicitudin accumsan.</p>
+			<p>Etiam eget libero et erat eleifend consectetur a nec lectus. Sed id tellus lorem. Suspendisse sed venenatis odio, quis lobortis eros.</p>
+		</div>
+		<div class="slid" >
+			<h2>RESPONSIVE DESIGN SPECIALISTS</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+			<p>Mauris ultrices odio vitae nulla ultrices iaculis. Nulla rhoncus odio eu lectus faucibus facilisis. Maecenas ornare augue vitae sollicitudin accumsan.</p>
+			<p>Etiam eget libero et erat eleifend consectetur a nec lectus. Sed id tellus lorem. Suspendisse sed venenatis odio, quis lobortis eros.</p>
+		</div>
+		<button class="demo" " onclick="slidermove(-1)">
+		</button>
+		<button class="demo" onclick="slidermove(1)"></button>
+	</div>
+</div>
+	
+
+<script type="text/javascript">
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function slidermove(n) {
+  showDivs(slideIndex = n);
+
+  function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("slid");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" style", "background-color:white;");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += "  white"
+}
+}
+
+	
+</script>
+</body>
+</html>

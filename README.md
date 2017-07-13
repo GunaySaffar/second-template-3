@@ -1,1 +1,1 @@
-# second-template-3
+# second-template
