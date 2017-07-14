@@ -1,0 +1,677 @@
+body{
+	margin: 0 auto;
+	font-family: 'Varela Round', sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+	font-size: 14px;
+	
+}
+.wrapper{
+margin: 0;
+}
+/*=========menuSection================================*/
+.menuSection{
+	width:100%;
+    height:723px;
+    padding-top:65px;
+    background:gray url("../images/hero-bg.jpg") no-repeat center center;
+    background-size:  cover;
+}
+.openList>i{
+	float: right;
+	position: relative;
+	right: 105px;
+	top: 0px;
+	cursor: pointer;
+}
+.text{
+	width: 100%;
+	text-align: center;
+	top: 150px;
+	position: relative;
+	
+	display: inline-block;
+}
+.text h1{
+	font-size: 40px;
+	color: black;
+	letter-spacing: 12px;
+	margin: 10px;
+    }
+.text p{
+    text-align: center;
+    font-size: 14px;
+    color: #a1a9b0;
+    letter-spacing: 1px;
+    margin: 0px;
+    }
+.textBtn{
+    background: rgba(61, 201, 179, 1);
+    padding: 20px 0px;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 257px;
+    box-shadow: 0px 4px 0px 0px #309383;
+    position: relative;
+     
+	top: 75px;
+	cursor: pointer;
+	color: white;
+	display: inline-block;
+	}
+	.textBtn:hover{
+	background: rgba(61, 201, 179, 0.6);
+    color: #fff;
+	}
+/*=========portfolioSection================================*/
+.portfolioSection{
+	width: 100%;
+	height: 421.5px;
+	background: #f3f5f8;
+}
+.portText {
+	position: relative;
+	padding: 100px 0 0;
+	text-align: center;
+}
+.portText h1{
+
+	font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+    background: url(../images/h1-bg.png) no-repeat center bottom;
+    padding-bottom: 30px;
+    text-align: center;
+ 
+
+}
+.portText p{
+	margin: 50px 0 0;
+	text-align: center;
+	color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 0 267px;
+
+}
+/*=========featuresSection================================*/
+.featuresSection{
+	width: 100%;
+	height: auto;
+	padding: 90px auto;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 90px;
+}
+.featuresSection>h1{
+	width: 100%;
+	background: url(../images/h1-bg.png) no-repeat center bottom;
+	padding-bottom: 30px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+}
+.box{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 75px;
+}
+.leptop{
+	width: calc(25.33% - 20px);
+	
+	display: inline-block;
+	margin-left: 10px;
+}
+.icon{
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	background: #3dc9b3;
+	line-height: 175px;
+	margin: 0 auto 50px;
+	font-size: 55px;
+	color: white;
+
+}
+.icon i{
+	
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    text-shadow: rgb(55, 181, 161) 1px 1px, 
+    rgb(55, 181, 161) 2px 2px, 
+    rgb(55, 181, 161) 3px 3px, 
+    rgb(55, 181, 161) 4px 4px, 
+    rgb(55, 181, 161) 5px 5px, 
+    rgb(55, 181, 161) 6px 6px, 
+    rgb(55, 181, 161) 7px 7px, 
+    rgb(55, 181, 161) 8px 8px, 
+    rgb(55, 181, 161) 9px 9px, 
+    rgb(55, 181, 161) 10px 10px, 
+    rgb(55, 181, 161) 11px 11px, 
+    rgb(55, 181, 161) 12px 12px, 
+    rgb(55, 182, 162) 13px 13px, 
+    rgb(55, 183, 163) 14px 14px, 
+    rgb(56, 184, 164) 15px 15px, 
+    rgb(56, 185, 165) 16px 16px, 
+    rgb(56, 186, 166) 17px 17px, 
+    rgb(57, 187, 167) 18px 18px, 
+    rgb(57, 188, 168) 19px 19px, 
+    rgb(57, 189, 169) 20px 20px, 
+    rgb(58, 191, 170) 21px 21px, 
+    rgb(58, 192, 171) 22px 22px, 
+    rgb(58, 193, 172) 23px 23px, 
+    rgb(59, 194, 173) 24px 24px, 
+    rgb(59, 195, 174) 25px 25px, 
+    rgb(59, 196, 175) 26px 26px, 
+    rgb(60, 197, 176) 27px 27px, 
+    rgb(60, 198, 177) 28px 28px, 
+    rgb(60, 199, 178) 29px 29px, 
+    rgb(61, 201, 179) 30px 30px;
+}
+
+}
+.leptop>h2::after{
+	content: " ";
+    border: solid 2px #3dc9b3;
+    display: block;
+    width: 35px;
+    margin: 25px auto;
+}
+.leptop>h2{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.leptop p{
+	color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+/*===================phoneDesignSection======================*/
+.phoneDesignSection{
+	width: 100%;
+	height: 300px;
+	height: 650px;
+}
+.iphone{
+	width: 50%;
+	display: inline-block;
+	height: 100%;
+	background:#F3F5F8 url(../images/iphone-bg.png) no-repeat 
+	center center;
+	background-position: 200px 10px;
+
+}
+.textSlid{
+	width: 50%;
+	display: inline-block;
+	float: right;
+	}
+.slider{
+	width: 475px;
+	height: 310px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 130px;
+	margin-left: 110px;
+}
+.polosa{
+	width: 1000px;
+	transition: all 1s ease;
+	position: absolute;
+	left: 0;
+}
+.slid{
+	width: 475px;
+	height: 310px;
+	text-align: center;
+	display: inline-block;
+}
+.slid p{
+	margin: 17px;
+	color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.slid h2{
+	font-size: 15px;
+	letter-spacing: 1px;
+	width: 100%;
+	background: url(../images/h1-bg.png) no-repeat center bottom;
+	padding-bottom: 30px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+}
+.btn{
+	margin-left: 335px;
+}
+.btns{
+	height:13px;
+	width:13px;
+	padding:0;
+	cursor:pointer;
+	border-radius: 50%;
+	border: 2px solid  #8c9398;
+	background-color: rgba(128, 128, 128,0.5);
+	margin-right: 10px;
+}
+
+/*=================problemSection========================*/
+.problemSection{
+	width: 100%;
+	height: 315px;
+	background: url(../images/plants-bg.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.textProb{
+	
+	text-align: center;
+	color: white;
+	word-spacing: 2px;
+	line-height: 25px;
+	top: 83px;
+	position: relative;
+}
+.textProb p{
+	letter-spacing: 2px;
+	font-size: 40px;
+	margin: 0px;
+
+}
+.textProb span{
+	position: relative;
+	top: 30px;
+	font-size: 25px;
+	letter-spacing: 3px;
+
+}
+.textProb a{
+	width: 40px;
+	height:40px;
+	border-radius: 50%;
+	background: rgba(61, 201, 179, 0.8);
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 70px;
+
+}
+/*==============sliderSection===========================*/
+.sliderSection{
+	width: 100%;
+	height: 565px;
+}
+.container{
+	width: 1349px;
+	text-align: center;
+	margin:90px auto;
+}
+.ramkaBox{
+	width: 1152px;
+	height: 458px;
+	overflow: hidden;
+	position: relative;
+	left: 97px;
+}
+.polosaBox{
+	width: 2300px;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	transition: all 1s ease;
+}
+.slidImg{
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.slidImg img{
+	width: 360px;
+	height: 225px;
+}
+.slidBox{
+	width: calc(15.33%);
+	height: 440px;
+	margin-left: 30px;
+	display: inline-block;
+}
+.slidBox h2{
+	font-size: 15px;
+}
+.slidBox>h2::after{
+	content: " ";
+    border: solid 2px #3dc9b3;
+    display: block;
+    width: 35px;
+    margin: 25px auto;
+}
+.slidBox p{
+	color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+.btns2{
+	height:13px;
+	width:13px;
+	padding:0;
+	cursor:pointer;
+	border-radius: 50%;
+	border: 2px solid  #8c9398;
+	background-color: rgba(128, 128, 128,0.5);
+	margin-right: 10px;
+
+}
+/*==============passionSection===========================*/
+.passionSection{
+	width: 100%;
+	height:210px;
+	background: #242830;
+}
+.passion{
+	text-align: center;
+/*	height:  50px;*/
+	/*margin-top: 50px;*/
+	/*background: yellow;*/
+}
+.passion span{
+	padding:25px 40px;
+	border: 2px solid white;
+	color: white;
+	position: relative;
+	top: 98px;
+	cursor: pointer;
+}
+.passion span:hover{
+	transition:
+	background:#3dc9b3;
+	border: 1px solid #3dc9b3;
+	transition: color 0.4s, border 0.4s; 
+	color: #3dc9b3;
+	
+
+}
+
+/*==========peopleSlideSection===============================*/
+.peopleSlideSection{
+	width: 100%;
+	height: 755px;
+}
+.peopleSlid{
+	position: relative;
+	top: 80px;
+	text-align: center;
+}
+.peopleText{
+	text-align: center;
+}
+.peopleText>h1{
+	width: 100%;
+	background: url(../images/h1-bg.png) no-repeat center bottom;
+	padding-bottom: 30px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.ramkaPeople{
+	position: relative;
+	left: 195px;
+	width: 1162px;
+	overflow: hidden;
+}
+.polosaPeople{
+	width: 2500px;
+	display: inline-block;
+	transition: all 1s ease;
+	position: relative;
+	left: 0;
+}
+
+.peopleSlidBox{
+	width: 360px;
+	margin:15px;
+	/*margin-left: 30px; */
+	height: 490px;
+	display: inline-block;
+	text-align: center;
+}
+.peopleSlidBox img{
+	margin-bottom: 40px;
+}
+.peopleSlidBox> h2{
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+}
+.peopleSlidBox>h2::after{
+	content: " ";
+    border: solid 2px #3dc9b3;
+    display: block;
+    width: 35px;
+    margin: 25px auto;
+}
+.peopleSlidBox p{
+	color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+.sosialbtn span{
+	width: 40px;
+	height: 40px;
+	background: #242830;
+	color: white;
+	border-radius: 50%;
+	line-height: 40px;
+	display: inline-block;
+	cursor: pointer;
+}
+.sosialbtn span:hover{
+	background: #3dc9b3;
+}
+.btns3{
+	height:13px;
+	width:13px;
+	padding:0;
+	cursor:pointer;
+	border-radius: 50%;
+	border: 2px solid  #8c9398;
+	background-color: rgba(128, 128, 128,0.5);
+	margin-right: 10px;
+
+}
+/*==============mailSection===========================*/
+.mailSection{
+	width: 100%;
+	height:445px;
+	background: url(../images/keyboard-bg.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.mailContainer{
+	text-align: center;
+	position: relative;
+	top: 120px;
+	font-size: 8px;
+	color: white;
+	padding:5px;
+}
+.mailContainer h1 i{
+	margin-bottom: 25px;
+}
+
+
+.input{
+	width: 340px;
+	height: 53px;
+	border: 2px solid white;
+	background: none;
+	display: inline-block;
+	background: rgba(128, 128, 128,0.3);
+}
+.send{
+	margin-top: 20px;
+	height: 60px;
+	width: 90px;
+	border: 2px solid #47998F;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+	transition: .5;
+	background-color:rgba(71, 153, 143,0.5);
+}
+.send:hover{
+		background: #3dc9b3;
+}
+	
+/*=============contactSection============================*/
+.contactSection a{
+	width: 50px;
+	height:50px;
+	border-radius: 50%;
+	background: rgba(61, 201, 179, 0.4);
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    left: 48.5%;
+    bottom: 25px;
+   	}
+.contactSection a:hover{
+	background: rgb(61,201,179);
+	color: #fff;
+}
+.contactSection{
+	width: 100%;
+	height: 640px;
+	background: #F3F5F8;
+	
+}
+.contactDiv{
+	text-align: center;
+	padding-top: 50px;
+}
+.contactDiv>h1{
+	width: 100%;
+	background: url(../images/h1-bg.png) no-repeat center bottom;
+	padding-bottom: 30px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+}
+.contactD{
+	display: inline-block;
+	width:calc(23%);
+	height: 197px;
+	background: white;
+	margin-left: 25px;
+
+}
+
+.contactBox{
+	margin-top: 75px;
+	text-align: center;
+	width: 100%;
+}
+.contactD>i{
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 13px;
+}
+.contactD> h2{
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	color: #3dc9b3;
+
+}
+.contactD>p{
+	color: #8c9398;
+}
+.contactD>h2::after{
+	content: " ";
+    border: solid 2px #3dc9b3;
+    display: block;
+    width: 35px;
+    margin: 25px auto;
+}
+.contactC{
+	margin: 80px 0px;
+	text-align: center;
+}
+.contactC span{
+	width: 40px;
+	height: 40px;
+	background: #242830;
+	color: white;
+	border-radius: 50%;
+	line-height: 40px;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 10px;
+
+}
+.contactC span:hover{
+	background: #3dc9b3;
+}
+/*==========footerSection===============================*/
+.footerSection{
+	width: 100%;
+	height: 120px;
+	background: #242830;
+	text-align: center;
+}
+.footerLeft{
+	float: left;
+	position: relative;
+	top: 55px;
+	left: 255px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.footerRight{
+	position: relative;
+	top: 45px;
+	margin-right: 210px;
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+}
+.footerLeft ul{
+	color:#a1a9b0;
+	display: inline;
+	list-style-type: none;
+	margin:0;
+	letter-spacing: 1px;
+}
+.footerLeft ul li a{
+	color:#a1a9b0;
+}
+.footerLeft li{
+	display: inline-block;
+}
+.footerLeft ul :hover{
+	color: #3dc9b3;
+	
+}
+.footerRight p{
+	color: white;
+}
+.footerRight p span :hover{
+	color: #3dc9b3;
+}
